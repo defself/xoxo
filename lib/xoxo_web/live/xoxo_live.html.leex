@@ -1,0 +1,19 @@
+<h1>XOXO game</h1>
+
+<table id="board" class="board">
+  <tr>
+    <td phx-click="step" phx-value-id="one" class="<%= raw(@xos.one) %>"></td>
+    <td phx-click="step" phx-value-id="two" class="<%= raw(@xos.two) %>"></td>
+    <td phx-click="step" phx-value-id="three" class="<%= raw(@xos.three) %>"></td>
+  </tr>
+  <tr>
+    <td phx-click="step" phx-value-id="four" class="<%= raw(@xos.four) %>"></td>
+    <td phx-click="step" phx-value-id="five" class="<%= raw(@xos.five) %>"></td>
+    <td phx-click="step" phx-value-id="six" class="<%= raw(@xos.six) %>"></td>
+  </tr>
+  <tr>
+    <td phx-click="step" phx-value-id="seven" class="<%= raw(@xos.seven) %>"></td>
+    <td phx-click="step" phx-value-id="eight" class="<%= raw(@xos.eight) %>"></td>
+    <td phx-click="step" phx-value-id="nine" class="<%= raw(@xos.nine) %>"></td>
+  </tr>
+</table>

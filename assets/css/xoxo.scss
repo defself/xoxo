@@ -1,0 +1,14 @@
+#board {
+    margin-bottom: 0;
+
+    td {
+        border: 1px solid #453635;
+        height: 200px;
+        width: 50px;
+        background-position: center;
+        background-size: cover;
+
+        &.x { background-image: url(/images/x.png); }
+        &.o { background-image: url(/images/o.png); }
+    }
+}

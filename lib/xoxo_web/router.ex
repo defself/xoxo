@@ -18,6 +18,7 @@ defmodule XoxoWeb.Router do
     pipe_through :browser
 
     live "/", PageLive, :index
+    live "/xoxo", XoxoLive, :index
   end
 
   # Other scopes may use custom stacks.
